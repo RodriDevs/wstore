@@ -186,7 +186,7 @@ h4 {
     display: inline-block;
     background-color: #7289DA;
     color: #fff;
-    padding: 8px 20px;
+    padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
     transition: background 0.5s;
@@ -222,5 +222,6 @@ blockquote {
     padding-bottom: 20px;
 
 }
-.store {
+article {
+    text-align: center;
 }
