@@ -6,9 +6,6 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body {
-    background-image: url(images/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 h2 {
     padding-top: 10px;
@@ -222,5 +219,14 @@ blockquote {
     padding-bottom: 20px;
 
 }
-.store {
+.footer-socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    color: black;
+}
+.footer-socials a {
+    color: black;
+    margin-left: 10px;
 }
