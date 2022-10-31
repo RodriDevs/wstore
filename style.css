@@ -225,9 +225,17 @@ blockquote {
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
-    color: white;
+    color: black;
 }
 .footer-socials a {
     color: black;
+    color: white;
+}
+.footer-socials a:hover {
+    transform: translateY(-5px);
+
+}
+.footer-socials a {
+    color: white;
     margin-left: 10px;
 }
