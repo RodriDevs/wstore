@@ -222,5 +222,14 @@ blockquote {
     padding-bottom: 20px;
 
 }
-.store {
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: gray;
+}
+footer h1 {
+    margin-bottom: 20px;
+}
+footer p {
+    margin-top: 10;
 }
