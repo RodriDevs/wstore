@@ -6,10 +6,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body {
-<<<<<<< HEAD
-=======
     background-color: black;
->>>>>>> b
 }
 h2 {
     padding-top: 10px;
@@ -228,20 +225,9 @@ blockquote {
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
-<<<<<<< HEAD
-    color: black;
+    color: white;
 }
 .footer-socials a {
     color: black;
-=======
-    color: white;
-}
-.footer-socials a:hover {
-    transform: translateY(-5px);
-
-}
-.footer-socials a {
-    color: white;
->>>>>>> b
     margin-left: 10px;
 }
