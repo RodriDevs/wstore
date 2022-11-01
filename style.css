@@ -57,15 +57,6 @@ h4 {
     border-radius: 30px; 
     transition: background 0.5s;
 }
-.btnd {
-    display: inline-block;
-    background-color: #7289DA;
-    color: #fff;
-    padding: 8px 20px;
-    margin: 30px 0;
-    border-radius: 30px;
-    transition: background 0.5s;
-}
 .btn {
     display: inline-block;
     color: #fff;
@@ -78,14 +69,6 @@ h4 {
     text-align: center;
     position: relative;
 
-}
-.products {
-    margin-top: 50px;
-    text-align: center;
-    display: flex;
-}
-.products h1 {
-    text-align: center;
 }
 .row {
     display: flex;
@@ -101,75 +84,6 @@ h4 {
 .col-2 p {
     color: gray;
 }
-.listproducts {
-    display: flex;
-    text-align: left;
-    margin-left: 80px;
-    margin-top: 40px;
-}
-.listproducts2 {
-    display: flex;
-    text-align: left;
-    margin-left: 80px;
-    margin-top: 40px;
-}
-.ptitle {
-    text-align: center;
-}
-.p1 {
-    margin-top: 40px;
-    margin-left: 40px;
-}
-.p1 h2 {
-    text-align: left;
-}
-.p1 p {
-    margin-top: 10px;
-    color: gray;
-}
-.rating .fa {
-    color: darkorange;
-    padding-top: 15px;
-}
-.rating {
-    text-align: left;
-}
-.price {
-    text-align: left;
-}
-.p2 h2 {
-    margin-left: 40px;
-    margin-top: 80px;
-}
-.p2 p {
-    margin-left: 40px;
-    margin-top: 10px;
-    color: gray;
-}
-.price p {
-    margin-top: 10px;
-}
-.price h2 {
-    margin-top: 30px;
-}
-.rating2 .fa {
-    color: darkorange;
-    padding-top: 15px;
-}
-.rating2 {
-    text-align: left;
-    margin-left: 40px;
-}
-.function h1 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    text-align: center;
-}
-.function p {
-    padding-top: 5px;
-    text-align: center;
-    color: gray;
-}
 .contact {
     text-align: center;
 }
@@ -179,16 +93,6 @@ h4 {
 .contact p {
     margin-top: 40px;
     color: gray;
-}
-.btnd1 {
-    display: inline-block;
-    background-color: #7289DA;
-    color: #fff;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 30px;
-    transition: background 0.5s;
-    text-decoration-style: none;
 }
 .btng {
     display: inline-block;
@@ -208,6 +112,9 @@ h4 {
 }
 .btnd1:hover {
     transform: translateY(-5px);
+}
+.contact {
+    margin-top: 170px;
 }
 blockquote {
     padding-top: 40px;
@@ -233,7 +140,6 @@ blockquote {
 }
 .footer-socials a:hover {
     transform: translateY(-5px);
-
 }
 .footer-socials a {
     color: white;
