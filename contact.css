@@ -69,6 +69,7 @@ article {
     text-align: center;
 }
 article p {
+    margin-top: 10px;
     color: gray;
 }
 .footer-socials {
