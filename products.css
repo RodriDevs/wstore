@@ -6,9 +6,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body {
-    background-image: url(images/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
 }
 h2 {
     padding-top: 10px;
@@ -22,7 +20,7 @@ nav {
     flex: 1;
     text-align: center;
     margin-top: 15px;
-    background-color: #214089;
+    background-color: #8B8B8B;
     box-sizing: content-box;
     padding-top: 5px;
     margin-bottom: 30px;
@@ -40,10 +38,10 @@ nav ul li {
     margin-right: 20px; 
 }
 h1 {
-    color: #C8CC49;
+    color: whitesmoke;
 }
 h2 {
-    color: purple;
+    color: white;
     margin-top: 35px;
 }
 h4 {
@@ -52,20 +50,11 @@ h4 {
 }
 .btnab {
     display: inline-block;
-    background-color: yellowgreen;
+    background-color: black;
     color: #fff;
     padding: 8px 20px;
     margin: 30px 0;
     border-radius: 30px; 
-    transition: background 0.5s;
-}
-.btnd {
-    display: inline-block;
-    background-color: #7289DA;
-    color: #fff;
-    padding: 8px 20px;
-    margin: 30px 0;
-    border-radius: 30px;
     transition: background 0.5s;
 }
 .btn {
@@ -75,11 +64,6 @@ h4 {
     margin: 30px 0;
     border-radius: 30px;
     transition: background 0.5s;
-}
-.discord {
-    text-align: center;
-    position: relative;
-
 }
 .products {
     margin-top: 50px;
@@ -94,14 +78,6 @@ h4 {
     align-content: content;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-.col-2 h1 {
-    font-size: 20px;
-    line-height: 60px;
-    margin: 20px 0;
-}
-.col-2 p {
-    color: gray;
 }
 .listproducts {
     display: flex;
@@ -161,66 +137,4 @@ h4 {
 .rating2 {
     text-align: left;
     margin-left: 40px;
-}
-.function h1 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    text-align: center;
-}
-.function p {
-    padding-top: 5px;
-    text-align: center;
-    color: gray;
-}
-.contact {
-    text-align: center;
-}
-.contact h1 {
-    margin-top: 35px;
-}
-.contact p {
-    margin-top: 40px;
-    color: gray;
-}
-.btnd1 {
-    display: inline-block;
-    background-color: #7289DA;
-    color: #fff;
-    padding: 8px 20px;
-    margin: 30px 0;
-    border-radius: 30px;
-    transition: background 0.5s;
-    text-decoration-style: none;
-}
-.btng {
-    display: inline-block;
-    background-color: white;
-    color: black;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 30px;
-    transition: background 0.5s;
-    text-decoration-style: none;
-}
-.btng:hover {
-    transform: translateY(-5px);
-}
-.btnd:hover {
-    transform: translateY(-5px);
-}
-.btnd1:hover {
-    transform: translateY(-5px);
-}
-blockquote {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-    color: white;
-}
-.function {
-    margin-top: 10px;
-    padding-bottom: 20px;
-
-}
-.store {
 }
