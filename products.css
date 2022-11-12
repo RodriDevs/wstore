@@ -68,13 +68,11 @@ h4 {
 .products {
     margin-top: 50px;
     text-align: center;
-    display: flex;
 }
 .products h1 {
     text-align: center;
 }
 .row {
-    display: flex;
     align-content: content;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -86,7 +84,6 @@ h4 {
     margin-top: 40px;
 }
 .listproducts2 {
-    display: flex;
     text-align: left;
     margin-left: 80px;
     margin-top: 40px;
@@ -95,15 +92,26 @@ h4 {
     text-align: center;
 }
 .p1 {
+    display: flex;
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 .p1 h2 {
+    margin-left: 20px;
     text-align: left;
 }
 .p1 p {
+    margin-left: 20px;
     margin-top: 10px;
     color: gray;
+}
+.p1 .rating {
+    margin-left: 20px;
+}
+.paid {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 .rating .fa {
     color: darkorange;
@@ -137,4 +145,16 @@ h4 {
 .rating2 {
     text-align: left;
     margin-left: 40px;
+}
+article {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+article h1 {
+    padding-bottom: 25px;
+}
+article p {
+    padding-bottom: 5px;
+    color: gray;
 }
